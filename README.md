@@ -1,0 +1,1 @@
+Configuración de zsh/OMZ
