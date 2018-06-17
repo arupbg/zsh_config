@@ -5,16 +5,16 @@ if &compatible
   set nocompatible
 endif
 
-set nocompatible
-filetype off
+"set nocompatible
+"filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
+"set rtp+=~/.vim/bundle/Vundle.vim
+"call vundle#begin()
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'Xuyuanp/nerdtree-git-plugin'
 
-call vundle#end()
+"call vundle#end()
 "filetype plugin indent on
 
 " NeoBundle
