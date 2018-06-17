@@ -41,7 +41,7 @@ NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'valloric/youcompleteme'
 NeoBundle 'raimondi/delimitmate'
-NeoBundle 'nathanaelkane/vim-indent-guides'
+"NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'jeffkreeftmeijer/vim-numbertoggle'
@@ -79,14 +79,14 @@ colorscheme PaperColor
 hi Normal guibg=NONE ctermbg=NONE
 
 
-" Indent Guides
-let g:indent_guides_start_level = 1
-let g:indent_guides_guide_size = 1
-let g:indent_guides_auto_colors = 0
-" set ts=4 sw=4 et
-let g:indent_guides_enable_on_vim_startup=1
-autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red        ctermbg=243
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=lightred   ctermbg=179
+"" Indent Guides
+"let g:indent_guides_start_level = 1
+"let g:indent_guides_guide_size = 1
+"let g:indent_guides_auto_colors = 0
+"" set ts=4 sw=4 et
+"let g:indent_guides_enable_on_vim_startup=1
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red        ctermbg=243
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=lightred   ctermbg=179
 
 " Airline
 if !exists('g:airline_symbols')
@@ -151,6 +151,9 @@ nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 
 " Vim-Jedi
 let g:jedi#auto_initialization = 1
+
+"tmux enable mouse
+set mouse=a
 
 NeoBundleCheck
 
