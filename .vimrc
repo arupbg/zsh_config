@@ -37,16 +37,43 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'shougo/neocomplete.vim'
 NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
-NeoBundle 'airblade/vim-gitgutter'
+
+" ----- Vim as a programmer's text editor -----------------------------
+NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
-NeoBundle 'valloric/youcompleteme'
-NeoBundle 'raimondi/delimitmate'
-"NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'jistr/vim-nerdtree-tabs'
+NeoBundle 'vim-syntastic/syntastic'
+NeoBundle 'Chiel92/vim-autoformat'
+NeoBundle 'xolox/vim-misc'
+NeoBundle 'xolox/vim-easytags'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'vim-scripts/a.vim'
 NeoBundle 'tpope/vim-commentary'
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle 'jeffkreeftmeijer/vim-numbertoggle'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'kabbamine/vcoolor.vim'
+NeoBundle 'skammer/vim-css-color'
+NeoBundle 'Valloric/YouCompleteMe'
+NeoBundle 'wincent/command-t'
+"NeoBundle 'nathanaelkane/vim-indent-guides'
+"https://github.com/tomtom/tcomment_vim
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'Yggdroot/indentLine'
+
+
+" ----- man pages, tmux -----------------------------------------------
+NeoBundle 'jez/vim-superman'
+NeoBundle 'christoomey/vim-tmux-navigator'
+
+"------- Git ------
+NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
+
+" ----- Other text editing features -----------------------------------
+NeoBundle 'aaimondi/delimitMate'
 
 call neobundle#end()
 
@@ -87,6 +114,7 @@ hi Normal guibg=NONE ctermbg=NONE
 "let g:indent_guides_enable_on_vim_startup=1
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=red        ctermbg=243
 "autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=lightred   ctermbg=179
+let g:indentLine_char = '▏'
 
 " Airline
 if !exists('g:airline_symbols')
