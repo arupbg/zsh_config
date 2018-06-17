@@ -192,6 +192,12 @@ let g:NERDTreeIndicatorMapCustom = {
 "tmux enable mouse
 set mouse=a
 
+"toggle NERDTree show hide with F6
+nmap <F6> :NERDTreeToggle<CR>
+
+"NERDTree show hidden files
+let NERDTreeShowHidden=1
+
 NeoBundleCheck
 
 
