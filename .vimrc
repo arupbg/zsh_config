@@ -10,23 +10,9 @@ filetype off
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-
-" Plugins
-
-" NeoBundle 'VundleVim/Vundle.vim'
-" NeoBundle 'vim-airline/vim-airline'
-" NeoBundle 'vim-airline/vim-airline-themes'
-" NeoBundle 'airblade/vim-gitgutter'
-" NeoBundle 'scrooloose/syntastic'
-" NeoBundle 'valloric/youcompleteme'
-" NeoBundle 'raimondi/delimitmate'
-" NeoBundle 'nathanaelkane/vim-indent-guides'
-" NeoBundle 'scrooloose/nerdcommenter'
-" NeoBundle 'flazz/vim-colorschemes'
-" NeoBundle 'shougo/neocomplete.vim'
+"Plugin 'VundleVim/Vundle.vim'
+"Plugin 'scrooloose/nerdtree'
+"Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 call vundle#end()
 "filetype plugin indent on
@@ -41,7 +27,8 @@ NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 
 " ----- Vim as a programmer's text editor -----------------------------
-"NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'vim-syntastic/syntastic'
@@ -77,7 +64,7 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 
 " ----- Other text editing features -----------------------------------
-NeoBundle 'aaimondi/delimitMate'
+NeoBundle 'Raimondi/delimitMate'
 
 call neobundle#end()
 
