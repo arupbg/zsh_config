@@ -63,7 +63,7 @@ NeoBundle 'wincent/command-t'
 "https://github.com/tomtom/tcomment_vim
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'Yggdroot/indentLine'
-NeoBunde 'mattn/emmet-vim'
+NeoBundle 'mattn/emmet-vim'
 NeoBundle 'joukevandermaas/vim-ember-hbs'
 
 
