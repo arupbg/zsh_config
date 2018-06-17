@@ -28,7 +28,7 @@ NeoBundle 'vim-airline/vim-airline-themes'
 
 " ----- Vim as a programmer's text editor -----------------------------
 NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Xuyuanp/nerdtree-git-plugin'
+"NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'vim-syntastic/syntastic'
@@ -156,7 +156,6 @@ set nu
 set laststatus=2
 
 " Syntastic
-
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -177,6 +176,19 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 let g:NERDTreeGlyphReadOnly = "RO"
 
+" NerdTree git plugin Maps
+let g:NERDTreeIndicatorMapCustom = {
+    \ "Modified"  : "✹",
+    \ "Staged"    : "✚",
+    \ "Untracked" : "✭",
+    \ "Renamed"   : "➜",
+    \ "Unmerged"  : "═",
+    \ "Deleted"   : "✖",
+    \ "Dirty"     : "✗",
+    \ "Clean"     : "✔︎",
+    \ 'Ignored'   : '☒',
+    \ "Unknown"   : "?"
+    \ }
 "tmux enable mouse
 set mouse=a
 
