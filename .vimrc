@@ -5,12 +5,14 @@ if &compatible
   set nocompatible
 endif
 
-" set nocompatible
-" filetype off
+set nocompatible
+filetype off
 
-" set rtp+=~/.vim/bundle/Vundle.vim
-" call vundle#begin()
-
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 " Plugins
 
@@ -26,7 +28,7 @@ endif
 " NeoBundle 'flazz/vim-colorschemes'
 " NeoBundle 'shougo/neocomplete.vim'
 
-"call vundle#end()
+call vundle#end()
 "filetype plugin indent on
 
 " NeoBundle
