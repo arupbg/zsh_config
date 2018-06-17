@@ -41,7 +41,7 @@ NeoBundle 'vim-airline/vim-airline'
 NeoBundle 'vim-airline/vim-airline-themes'
 
 " ----- Vim as a programmer's text editor -----------------------------
-NeoBundle 'scrooloose/nerdtree'
+"NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'jistr/vim-nerdtree-tabs'
 NeoBundle 'vim-syntastic/syntastic'
