@@ -93,7 +93,7 @@ syntax enable
 set t_Co=256
 set background=dark
 let g:solarized_termcolors=256
-colorscheme PaperColor
+"colorscheme PaperColor
 hi Normal guibg=NONE ctermbg=NONE
 
 
