@@ -1,4 +1,4 @@
-" -----------Vundle-------------c
+" -----------Vundle-------------
 if 0 | endif
 
 if &compatible
@@ -65,6 +65,9 @@ NeoBundle 'Xuyuanp/nerdtree-git-plugin'
 
 " ----- Other text editing features -----------------------------------
 NeoBundle 'Raimondi/delimitMate'
+
+" ----- colorscheme gruvbox ----
+NeoBundle 'morhetz/gruvbox'
 
 call neobundle#end()
 
